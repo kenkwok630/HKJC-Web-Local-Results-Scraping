@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-hkjc-local-results-scraping",
+  "version": "1.0.0",
+  "description": "This project uses Node.js to scrape the latest horse racing results from the HKJC website, outputting the data in JSON and Excel XLSX formats.",
+  "license": "MIT",
+  "author": "ken kwok",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "cheerio": "^1.1.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  }
+}
